@@ -1,0 +1,26 @@
+.env
+.env.local
+.env.*.local
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+.DS_Store
+Thumbs.db
+
+# Planning/process docs stay local — only README.md is public
+*.md
+!README.md
